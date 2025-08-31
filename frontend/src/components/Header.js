@@ -40,7 +40,7 @@ const Header = () => {
   const [formState, dispatchForm] = useReducer(formReducer, initialForm)
   const [items, dispatchItems] = useReducer(listReducer, [])
   const [edit,setEdit] = useState(null)
-  const ABIURL = "http://127.0.0.1:8000/db";
+  const ABIURL = "https://expense-trackerapp.onrender.com";
 
 useEffect(() => {
   const fethdata = async () => {
